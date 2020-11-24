@@ -18,8 +18,8 @@ parser.add_argument('--lr', type=float, default=0.1,
                     help='learning rate (default: 0.1)')
 parser.add_argument('--cuda', type=int, default=1,
                     help='Train on GPU with CUDA')
-parser.add_argument('--log_save_path', type=str,   default="/inspur/models/logs/log_mx_mnist_multi/",  help='log out')
-parser.add_argument('--model_save_path', type=str, default="/inspur/models/logs/log_mx_mnist_multi/", help='model path')
+parser.add_argument('--log_save_path', type=str,   default="/wangdongmei/models/logs/log_mx_mnist_multi/",  help='log out')
+parser.add_argument('--model_save_path', type=str, default="/wangdongmei/models/logs/log_mx_mnist_multi/", help='model path')
 parser.add_argument('--isresume', type=bool, default=False, help='resumimg the training from the checkpoint')
 parser.add_argument('--num_gpus', type=int, default=2, help='number of gpu')
 #opt = parser.parse_args([])

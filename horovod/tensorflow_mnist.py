@@ -23,7 +23,7 @@ import os
 
 flags = tf.flags
 flags.DEFINE_string('data_dir', '/MNIST_data/','dir')
-flags.DEFINE_string('model_save_path', '/inspur/models/logs/log_tf_mpi_mnist/','dir')
+flags.DEFINE_string('model_save_path', '/wangdongmei/models/logs/log_tf_mpi_mnist/','dir')
 flags.DEFINE_integer('step', 40000, 'step')
 flags.DEFINE_integer('batch_size', 64, 'batch')
 flags.DEFINE_bool('isresume', False, 'isresume')

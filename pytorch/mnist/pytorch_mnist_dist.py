@@ -103,7 +103,7 @@ def main():
                         help='how many batches to wait before logging training status')
     parser.add_argument('--save_model', default=True,
                         help='For Saving the current Model')
-    parser.add_argument('--model_save_path', default='/inspur/models/logs/log_pytorch_mnist_dist',
+    parser.add_argument('--model_save_path', default='/wangdongmei/models/logs/log_pytorch_mnist_dist',
                         help='model save path')
     parser.add_argument('--log_dir', default='logs', metavar='L',
                         help='directory where summary logs are stored')

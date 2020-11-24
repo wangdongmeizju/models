@@ -14,8 +14,8 @@ import os
 parser = argparse.ArgumentParser(description='PyTorch cifar10 Training')
 parser.add_argument('--data_dir', default='/cifar10/', help='dataset path')
 
-parser.add_argument('--log_save_path',   default='/inspur/models/logs/log_pytorch_cifar_multi', help='log save path')
-parser.add_argument('--model_save_path', default='/inspur/models/logs/log_pytorch_cifar_multi/ckpt.pth', help='log save path')
+parser.add_argument('--log_save_path',   default='/wangdongmei/models/logs/log_pytorch_cifar_multi', help='log save path')
+parser.add_argument('--model_save_path', default='/wangdongmei/models/logs/log_pytorch_cifar_multi/ckpt.pth', help='log save path')
 parser.add_argument('--epoch', default=10, type=int, help='dataset path')
 parser.add_argument('--batch_size', default=64, type=int, help='dataset path')
 parser.add_argument('--is_cuda', default="true", help='cuda')

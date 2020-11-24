@@ -45,7 +45,7 @@ __all__ = [
 
 parser = argparse.ArgumentParser(description='Paddle MNIST Example')
 parser.add_argument('--datadir', default='/MNIST_data', metavar='L', help='directory where summary logs are stored')
-parser.add_argument('--model_save_path', default='/inspur/models/logs/log_paddle_mnist_multi/', metavar='L', help='directory where summary logs are stored')
+parser.add_argument('--model_save_path', default='/wangdongmei/models/logs/log_paddle_mnist_multi/', metavar='L', help='directory where summary logs are stored')
 parser.add_argument('--isresume', default=False, metavar='L', help='resumimg the training from the checkpoint')  
 
 args =parser.parse_args()

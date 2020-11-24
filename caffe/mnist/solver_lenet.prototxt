@@ -1,5 +1,5 @@
-train_net: "/inspur/models/caffe/mnist/train_lenet.prototxt"
-test_net: "/inspur/models/caffe/mnist/test_lenet.prototxt"
+train_net: "/wangdongmei/models/caffe/mnist/train_lenet.prototxt"
+test_net: "/wangdongmei/models/caffe/mnist/test_lenet.prototxt"
 test_iter: 100
 test_interval: 500
 base_lr: 0.00999999977648
@@ -11,7 +11,7 @@ power: 0.75
 momentum: 0.899999976158
 weight_decay: 0.000500000023749
 snapshot: 5000
-snapshot_prefix: "/inspur/models/logs/models/"
+snapshot_prefix: "/wangdongmei/models/logs/models/"
 #solver_mode: CPU
 solver_mode: GPU
 type: "SGD"

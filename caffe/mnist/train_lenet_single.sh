@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-caffe train --solver=/inspur/models/caffe/mnist/solver_lenet.prototxt
+caffe train --solver=/wangdongmei/models/caffe/mnist/solver_lenet.prototxt

@@ -23,6 +23,6 @@ display: 100
 max_iter: 30000
 # snapshot intermediate results
 snapshot: 10000
-snapshot_prefix: "/inspur/models/logs/models/cifar10_full_sigmoid"
+snapshot_prefix: "/wangdongmei/models/logs/models/cifar10_full_sigmoid"
 # solver mode: CPU or GPU
 solver_mode: GPU

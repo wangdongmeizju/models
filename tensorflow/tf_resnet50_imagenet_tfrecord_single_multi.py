@@ -13,8 +13,8 @@ os.environ["CUDA_VISIBLE_DEVICES"]="0, 1"
 flags = tf.flags
 flags.DEFINE_string('f', '', '')
 flags.DEFINE_string('data_dir', '/imagenet/ILSVRC2012_img_train_tfrecord','dir')
-flags.DEFINE_string('log_out', '/inspur/models/tensorflow/log_imagenet/','dir')
-flags.DEFINE_string('model_save_path', '/inspur/models/tensorflow/log_imagenet/','dir')
+flags.DEFINE_string('log_out', '/wangdongmei/models/tensorflow/log_imagenet/','dir')
+flags.DEFINE_string('model_save_path', '/wangdongmei/models/tensorflow/log_imagenet/','dir')
 flags.DEFINE_integer('epoch', 2000, 'epoch')
 flags.DEFINE_integer('batch_size', 64, 'batch')
 flags.DEFINE_integer('gpu_num', 1, 'gpu')

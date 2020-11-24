@@ -54,7 +54,7 @@ FLAGS = tf.app.flags.FLAGS
 tf.app.flags.DEFINE_string('f', '', '')
 tf.app.flags.DEFINE_string('data_dir', '/cifar10',
                                    """Path to the CIFAR-10 data directory.""")
-tf.app.flags.DEFINE_string('model_save_path', '/inspur/models/logs/log_tf_cifar_multi/',
+tf.app.flags.DEFINE_string('model_save_path', '/wangdongmei/models/logs/log_tf_cifar_multi/',
                            """Directory where to write event logs """
                            """and checkpoint.""")
 tf.app.flags.DEFINE_integer('max_step', 10000,

@@ -13,8 +13,8 @@ import os
 flags = tf.flags
 flags.DEFINE_string('f', '', '')
 flags.DEFINE_string('data_dir', '/MNIST_data/','dir')
-#flags.DEFINE_string('log_out', '/inspur/models/tensorflow/mnist/log_single/','dir')
-flags.DEFINE_string('model_save_path', '/inspur/models/logs/log_tf_mnist_single/','dir')
+#flags.DEFINE_string('log_out', '/wangdongmei/models/tensorflow/mnist/log_single/','dir')
+flags.DEFINE_string('model_save_path', '/wangdongmei/models/logs/log_tf_mnist_single/','dir')
 #flags.DEFINE_string('model_save_path', './log_single/','dir')
 flags.DEFINE_integer('max_step', 20000, 'step')
 flags.DEFINE_integer('batch_size', 64, 'batch')

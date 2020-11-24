@@ -228,7 +228,7 @@ if __name__ == '__main__':
 #        "--checkpoint_dir",
         "--model_save_path",
         type=str,
-        default="/inspur/models/logs/log_tf_mnist_dist/",
+        default="/wangdongmei/models/logs/log_tf_mnist_dist/",
         help="path to a directory where to restore variables."
     )
 
