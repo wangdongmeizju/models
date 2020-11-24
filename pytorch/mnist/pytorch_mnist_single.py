@@ -45,7 +45,7 @@ torch.manual_seed(1)
 EPOCH = args.epoch
 BATCH_SIZE = args.batch_size
 LR = 0.001
-DOWNLOAD_MNIST = False
+DOWNLOAD_MNIST = True
 
 train_data = torchvision.datasets.MNIST(
     root=args.data_dir,
