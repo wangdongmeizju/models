@@ -1,0 +1,38 @@
+################################################################ 
+
+    Please read the following instruction before you training models: 
+  
+     
+      You can train models in following ways: 
+      ./aistation_DL_train.sh tensorflow mnist 1
+ 
+      which means training tensorflow model with mnist by using 1 GPU 
+
+
+      You can use more GPUS like this:
+      ./aistation_DL_train.sh tensorflow mnist 2 
+
+
+      Also you can train the models with MPI by this:
+       ./aistation_DL_train.sh tensorflow mnist mpi 2 
+
+     
+      Please Note: 
+      the default user is 'inspur', so please modify the 
+      path which is used in training scripts if you want 
+      to test those scripts in your own directory.
+      Or use the user_path_change.sh to new user like:
+      ./user_path_change.sh  jhon
+
+      Now we support following models: 
+      -------------------------------
+      tensorflow mnist(cifar10)
+      pytorch mnist(cifar10) 
+      caffe mnist(cifar10)
+      mxnet mnist
+      paddle mnist 
+      ------------------------------
+      in one or more GPUs, or in MPI (only mnist) training mode. 
+
+#############################################################
+
